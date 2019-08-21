@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+
+            <TextView
+                android:id="@+id/test_class_show_log_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="日志信息：\n"
+                android:textSize="18sp"
+                android:textColor="@color/colorBlack"
+                android:layout_margin="12dp"
+                />
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>

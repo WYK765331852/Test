@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Test</string>
+    <string name="menu_title">Phone</string>
+    <string name="menu_list1">Back</string>
+    <string name="menu_list2">Apple</string>
+    <string name="test_class_cal">Calculator</string>
+    <string name="test_class_note">Note</string>
+    <string name="test_class_login">Login</string>
+    <string name="test_class_note_send">Send</string>
+    <string name="test_class_show_log">Show Log</string>
+</resources>

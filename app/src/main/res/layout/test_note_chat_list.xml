@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    app:ignore="NamespaceTypo">
+
+    <TextView
+        android:id="@+id/test_class_note_chat_left"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Me"
+        android:textSize="16sp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:id="@+id/test_class_note_chat_mes"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="8"
+        android:textSize="24sp"
+        android:textColor="@color/colorBlack"
+        android:background="@drawable/test_class_note_class_xin"
+        android:gravity="center_vertical"
+        android:padding="50dp"
+        app:text="你好棒"/>
+
+    <TextView
+        android:id="@+id/test_class_note_chat_right"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="You"
+        android:textSize="16sp"
+        android:textColor="@color/colorPrimaryDark"/>
+
+</LinearLayout>

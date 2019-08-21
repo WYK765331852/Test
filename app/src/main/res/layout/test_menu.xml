@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+   >
+
+    <TextView
+        android:id="@+id/test_class_cal_tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="12dp"
+        android:background="@drawable/test_class_shape"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/test_class_cal"
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp"
+
+        />
+
+    <TextView
+        android:id="@+id/test_class_note_tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/test_class_cal_tv"
+        android:layout_marginLeft="12dp"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/test_class_shape"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/test_class_note"
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp"
+
+        />
+
+    <TextView
+        android:id="@+id/test_class_show_log_tv"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/test_class_note_tv"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="12dp"
+        android:background="@drawable/test_class_shape_log"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/test_class_show_log"
+        android:textColor="@color/colorBlack"
+        android:textSize="18sp"
+
+        />
+</RelativeLayout>
